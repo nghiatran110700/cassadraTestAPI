@@ -59,7 +59,7 @@ namespace cassadraTestAPI.Controllers
             else
             {
                 _mapper.Update<Post>(model);
-                return Ok("da xoa thanh cong");
+                return Ok("da edit thanh cong");
             }
         }
 
